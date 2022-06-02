@@ -91,8 +91,8 @@ int main (){
                     if(obj1.isEmpty()){
                         if(isFibonacci(sum)){
                             piles++;
-                            cout << "Pile " << piles << " Fibo: " << sum << endl;
-                            cout << "\nWinner in " << piles << " piles!!!";
+                            cout << "Pile " << piles-1 << " Fibo: " << sum << endl;
+                            cout << "\nWinner in " << piles-1 << " piles!!!";
                             winCounter++;
                             gamesPlayed++;
                             cout << "\nGames Played: " << gamesPlayed;
